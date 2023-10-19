@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/projects.png";
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "code on a computer screen";
 
 /**
  * Project list
@@ -31,28 +31,40 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Neural Style Transfer App",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "The Neural Style Transfer Art App uses AI to apply artistic styles to images and videos, creating captivating transformations.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-8/",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Landmark Classification & Tagging for Social Media",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Landmark Classifier project employs AI and CNNs to recognize landmarks in photos, enhancing photo-sharing experiences through image recognition.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-6/",
   },
   {
-    title: "My Resume Site",
+    title: "Handwritten Digits Classifier",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "The Handwritten Digits Classifier, using PyTorch, prototypes accurate OCR for handwritten digits.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-3/",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Predict Bike Sharing Demand",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "The Bike Sharing Demand project with AutoGluon aims to predict bike-sharing demand by optimizing machine learning models for improved service operations.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-4/",
+  },
+  {
+    title: "Fake News Classifier",
+    description:
+      "The Fake News Classifier, developed in Python, prototypes a system for accurate detection and classification of real and fake news articles using natural language processing and a classification algorithm.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-5/",
+  },
+  {
+    title: "Flower Species Image Classifier Application",
+    description:
+      "The Flower Species Image Classifier utilizes CNNs to accurately identify flower species from images, having been trained on a diverse dataset of flower images.",
+    url: "https://qudus4l.github.io/portfolio_q/post/chapter-2/",
   },
 ];
 
